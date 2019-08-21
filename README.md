@@ -20,6 +20,7 @@ git clone https://github.com/andrespalomino/pizza_test.git
 $ cd ~/pizza_ws 	
 $ catkin_make
 $ source devel/setup.bash
+```
 
 - Launch
 
