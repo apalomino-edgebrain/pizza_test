@@ -1,0 +1,11 @@
+<launch> 
+    <node pkg="pizza_test" type="pizza_test" name="pizza_test" output="screen" /> 
+
+    <include file="$(find robot_1)/launch/R1.launch" />
+
+    <include file="$(find robot_2)/launch/R2.launch" />
+
+    <include file="$(find robot_3)/launch/R3.launch" />
+
+    <include file="$(find robot_4)/launch/R4.launch" />
+</launch>

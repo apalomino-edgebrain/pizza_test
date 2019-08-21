@@ -1,0 +1,3 @@
+<launch>
+   <node pkg="robot_4" type="R4" name="R4" output="screen" />  
+</launch>
